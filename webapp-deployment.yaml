@@ -14,13 +14,13 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: dineshmk/node-app:dinesh1                 
+        image: dineshmk/node-app:dinesh2                 
         ports:
         - containerPort: 80
           name: webapp
         env:
         - name: DB_HOST
-          value: db-deployment
+          value: db-service
         - name: DB_PORT
           value: "3306"
         - name: DB_NAME
