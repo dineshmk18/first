@@ -17,7 +17,7 @@ spec:
         image: mysql:latest
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: Dinesh18@
+          value: Maharashtra1998@
         - name: MYSQL_DATABASE
           value: sampledb
         - name: MYSQL_USER
